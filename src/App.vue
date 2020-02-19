@@ -9,6 +9,7 @@
 
 <script>
 import MarkdownItVue from 'markdown-it-vue'
+import 'markdown-it-vue/dist/markdown-it-vue.css'
 
 export default {
   name: 'app',
@@ -33,24 +34,27 @@ export default {
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 }
 
 #normal-text {
-  height: 150px;
-  width: 300px;
+  height: 92vh;
+  width: 50vw;
+  margin: 20px;
+  padding-top: 20px;
+  font-size: 1.2em;
 }
 
 #markdown-result {
   display: inline-block;
-  margin: 0 10px;
-  border: 0.5px solid rgb(99, 97, 97);
-  height: 150px;
-  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 0.1px solid rgb(187, 183, 183);
+  height: 90vh;
+  width: 50vw;
   background-color: white;
   white-space: pre-wrap;
-  word-wrap:break-word;
+  word-wrap: break-word;
   overflow-y: scroll;
 }
 </style>
