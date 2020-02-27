@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <textarea v-model="inputText" name="text-editor" id="normal-text" cols="30" rows="10"></textarea>
-    <div id="markdown-result">
+    <textarea v-model="inputText" name="text-editor" id="editor" cols="30" rows="10"></textarea>
+    <div id="preview">
       <markdown :content="inputText" />
     </div>
   </div>
@@ -37,7 +37,7 @@ export default {
   background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 }
 
-#normal-text {
+#editor {
   height: 92vh;
   width: 50vw;
   margin: 20px;
@@ -45,7 +45,7 @@ export default {
   font-size: 1.2em;
 }
 
-#markdown-result {
+#preview {
   display: inline-block;
   margin: 20px;
   padding: 20px;
