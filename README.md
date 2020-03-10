@@ -1,16 +1,22 @@
-# freecodecamp-markdown-previewer
+# FreeCodeCamp Markdown Previewer
+
+A project in the FreeCodeCamp Front-end Libraries section. Converts Markdown entered in a text box to HTML in the preview beside it. This project uses the [markdown-it library for Vuejs](https://github.com/ravenq/markdown-it-vue). 
+
+Follow these steps to setup the project on your local machine
 
 ## Project setup
+
+Download all dependencies
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile the project and run it with hot-reload for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compile and minify for production
 ```
 npm run build
 ```
@@ -20,7 +26,7 @@ npm run build
 npm run test
 ```
 
-### Lints and fixes files
+### Lint and fix files
 ```
 npm run lint
 ```
