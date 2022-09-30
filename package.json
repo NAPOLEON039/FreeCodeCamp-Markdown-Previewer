@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
-    "markdown-it-vue": "^1.0.11",
+    "markdown-it-vue": "^1.1.6",
     "vue": "^2.6.10"
   },
   "devDependencies": {
